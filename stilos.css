@@ -1,0 +1,97 @@
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content img {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.header-content div h1, .header-content div h2 {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(226, 210, 210);
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.section-title {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+textarea, 
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+footer {
+    background-color: rgb(170, 18, 18);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    margin-top: auto;
+    width: 100%;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        width: 95%;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-content img {
+        margin: 0 0 10px 0;
+    }
+}
